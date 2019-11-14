@@ -11,7 +11,6 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: inherit;
 }
 
 ul,
@@ -170,7 +169,7 @@ body {
     line-height: 23px;
     color: #fff;
     opacity: 0.7;
-    
+
 }
 
 .menu a:hover {
@@ -178,3 +177,168 @@ body {
 }
 
 /*header*/
+
+/*search feild*/
+
+.about .col-xl-4 {
+    max-width: 29%;
+}
+
+.about h3 {
+    text-align: center;
+}
+
+.search input {
+    min-height: 55px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 21px;
+    color: #383838;
+    padding-left: 50px;
+    position: relative;
+    margin-top: 46px;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search button {
+    position: absolute;
+    top: 63px;
+    left: 35px;
+    width: 21.02px;
+    height: 21.02px;
+    background: url('../images/loupe-img.png');
+    border: none;
+}
+
+/*search feild*/
+
+/*catalog*/
+
+.catalog h3 {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    color: #272727;
+}
+
+.catalog ul {
+    margin: 15px 0;
+}
+
+.catalog li {
+    margin-left: 25px;
+    padding: 6px 0;
+    position: relative;
+    transition: all .3s;
+}
+
+.catalog li::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: #909090;
+    position: absolute;
+    top: 12px;
+    left: -16px;
+    border-radius: 50%;
+}
+
+.catalog a {
+    font-size: 18px;
+    line-height: 21px;
+    color: #272727;
+    transition: .3s;
+}
+
+.catalog a:hover {
+    font-weight: bold;
+    position: relative;
+}
+
+.catalog a:hover::before {
+    background: url('../images/paint.png') no-repeat 50% 50%;
+    width: 29.03px;
+    height: 20.94px;
+    position: absolute;
+    right: -38px;
+    bottom: -2px;
+    content: '';
+}
+
+/*catalog*/
+
+/*news*/
+
+.news {
+    border: 1px solid #000;
+}
+
+.news h3 {
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    color: #272727;
+    padding: 16px;
+    margin: 0 30px;
+}
+
+.cards {
+    padding: 15px 36px;
+    border: none;
+}
+
+.cards img {
+    max-width: 236px;
+    max-height: 160px;
+    margin-bottom: 15px;
+}
+
+.cards span {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 16px;
+    color: #383838;
+
+}
+
+.cards h4 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #383838;
+    margin: 7px 0 7px;
+}
+
+.cards p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #383838;
+}
+
+.cards a {
+    width: 65px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #383838;
+    border-bottom: 1px solid #000;
+    position: relative;
+}
+
+.cards a::after {
+    content: '';
+    width: 14px;
+    height: 6px;
+    background: url(../images/right-arrow.png) no-repeat 50% 50%;
+    background-size: cover;
+    position: absolute;
+    left: 71px;
+    top: 5px;
+}
+
+
+/*news*/
