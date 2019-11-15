@@ -63,6 +63,10 @@ body {
     padding-right: 30px;
 }
 
+.header .col-xl-3 {
+    padding-right: 0;
+}
+
 .header .col-xl-12 {
     padding: 0;
 }
@@ -77,6 +81,7 @@ body {
     padding-left: 15px;
     font-size: 18px;
     line-height: 21px;
+    margin-right: -6px;
 }
 
 .logo__text div:last-child {
@@ -90,11 +95,16 @@ body {
     line-height: 17px;
 }
 
-.company-profile div {
-    padding: 28px 0;
-    border-bottom: 1px solid #fff;
-    border-top: 1px solid #fff;
+.company-profile-text {
     text-align: center;
+}
+
+.company-profile-text img:first-child {
+    margin-bottom: 8px;
+}
+
+.company-profile-text img:last-child {
+    margin-top: 8px;
 }
 
 
@@ -137,6 +147,10 @@ body {
 .contacts__phone {
     position: relative;
     padding: 6px 0 6px 40px;
+}
+
+.contacts__phone a {
+    color: #fff;
 }
 
 .contacts__phone::before {
@@ -194,7 +208,7 @@ body {
 
 .search__inner input {
     min-height: 30px;
-    width: 70%;
+    max-width: 70%;
     font-size: 18px;
     line-height: 21px;
     color: #383838;
@@ -285,6 +299,7 @@ body {
     top: 12px;
     left: -16px;
     border-radius: 50%;
+    z-index: 0;
 }
 
 .catalog__inner a {
@@ -433,6 +448,11 @@ body {
     background: url('../images/prev-slide.png') no-repeat 50% 50%;
     background-size: cover;
     border: none;
+
+}
+
+.slick-btn:focus {
+    outline: none;
 }
 
 .slick-next {
@@ -511,6 +531,10 @@ body {
     line-height: 21px;
 }
 
+.footer__contacts a {
+    color: #fff;
+}
+
 .footer__contacts-number {
     position: relative;
     padding-left: 41px;
@@ -545,7 +569,7 @@ body {
 .footer__contacts-addres_1 {
     margin-bottom: 8px;
     position: relative;
-    
+
 }
 
 .footer__contacts-addres_1::after {
@@ -562,8 +586,33 @@ body {
 
 .footer__bottom {
     min-height: 110px;
+    font-size: 16px;
+    line-height: 18px;
 }
 
+.devepopers {
+    align-self: middle;
+}
+
+
+
+.devepopers span.footer-link {
+    margin-left: 8px;
+    border-bottom: 1px solid #fff;
+}
+
+.devepopers a {
+    color: #fff;
+}
+
+.promo-kontur {
+    display: flex;
+    align-items: flex-end;
+}
+
+.promo-kontur__text div {
+    padding-left: 45px;
+}
 
 
 /*footer*/
