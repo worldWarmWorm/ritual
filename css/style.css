@@ -67,10 +67,6 @@ body {
     padding-right: 0;
 }
 
-.header .col-xl-12 {
-    padding: 0;
-}
-
 .logo {
     display: flex;
     min-height: 172px;
@@ -100,7 +96,7 @@ body {
 }
 
 .company-profile-text img {
-width: 100%;
+    width: 100%;
 }
 
 .company-profile-text img:first-child {
@@ -213,7 +209,12 @@ width: 100%;
 }
 
 .about .col-xl-4 {
-    max-width: 29%;
+    padding-right: 0;
+}
+
+
+.about .col-md-8 {
+    padding-left: 30px;
 }
 
 
@@ -269,6 +270,7 @@ width: 100%;
 .catalog__inner img {
     position: absolute;
     top: 22px;
+    z-index: -1;
 }
 
 .catalog__inner h3 {
@@ -355,7 +357,7 @@ width: 100%;
     color: #272727;
     padding: 16px;
     margin: 0 30px;
-
+    width: 67%;
 }
 
 .news__inner img.news-frame {
@@ -373,6 +375,7 @@ width: 100%;
 .cards {
     padding: 15px 36px 0 36px;
     border: none;
+    width: 83%;
     z-index: 1;
 }
 
@@ -503,12 +506,14 @@ width: 100%;
 .about__content-image {
     position: relative;
     top: 28px;
+    right: -40px;
+    
 }
 
 .about__content-image::after {
     position: absolute;
     top: -28px;
-    right: 0;
+    right: -44px;
     content: '';
     min-width: 169px;
     min-height: 517px;
@@ -563,7 +568,7 @@ width: 100%;
     content: '';
     width: 32px;
     height: 32px;
-    background: url(../images/ico-mail.png) no-repeat 50% 50%;
+    background: url(../images/ico-phone.png) no-repeat 50% 50%;
     background-size: cover;
 }
 
