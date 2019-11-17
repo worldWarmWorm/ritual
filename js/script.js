@@ -4,4 +4,8 @@ $(document).ready(function(){
         prevArrow: '<button type="button" class="slick-btn slick-prev"></button>',
         infinite: true
     });
+
+    $('.menu__gumb').on('click', function() {
+        $('.header .menu ul').slideToggle(500);
+    });
   });

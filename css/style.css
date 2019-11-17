@@ -99,6 +99,10 @@ body {
     text-align: center;
 }
 
+.company-profile-text img {
+width: 100%;
+}
+
 .company-profile-text img:first-child {
     margin-bottom: 8px;
 }
@@ -123,8 +127,10 @@ body {
     position: absolute;
     left: 0;
     content: '';
-    width: 32px;
-    height: 32px;
+    max-width: 32px;
+    width: 100%;
+    max-height: 32px;
+    height: 100%;
     background: url('../images/ico-geo.png') no-repeat 50% 50%;
     background-size: cover;
 }
@@ -186,8 +192,16 @@ body {
 
 }
 
+.menu a:focus {
+    opacity: 1;
+}
+
 .menu a:hover {
     opacity: 1;
+}
+
+.menu__gumb {
+    display: none;
 }
 
 /*header*/
@@ -201,6 +215,7 @@ body {
 .about .col-xl-4 {
     max-width: 29%;
 }
+
 
 .about h3 {
     text-align: center;
@@ -488,13 +503,12 @@ body {
 .about__content-image {
     position: relative;
     top: 28px;
-    margin-left: 72px;
 }
 
 .about__content-image::after {
     position: absolute;
     top: -28px;
-    right: -33px;
+    right: 0;
     content: '';
     min-width: 169px;
     min-height: 517px;
