@@ -14,7 +14,7 @@
     }
 
     .menu__gumb {
-        display: block;
+        display: block !important;
         line-height: 55px;
     }
 
@@ -69,11 +69,11 @@
     }
 
     .footer__contacts-number {
-        padding-left: 0;
+        padding-left: 0 !important;
     }
 
     .footer__contacts-number::after {
-        left: -39px;
+        left: -39px !important;
     }
 
     .footer__bottom {
