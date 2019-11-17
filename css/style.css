@@ -265,6 +265,7 @@ body {
 
 .catalog__inner {
     position: relative;
+    width: 110%;
 }
 
 .catalog__inner img {
@@ -295,7 +296,6 @@ body {
     position: relative;
     top: 123px;
     left: 0px;
-    max-width: 93%;
     z-index: 1;
     padding-left: 20px;
 }
@@ -331,7 +331,7 @@ body {
     position: relative;
 }
 
-.catalog__inner a:hover::before {
+/* .catalog__inner a:hover::before {
     background: url('../images/paint.png') no-repeat 50% 50%;
     width: 29.03px;
     height: 20.94px;
@@ -339,11 +339,15 @@ body {
     right: -38px;
     bottom: -2px;
     content: '';
-}
+} */
 
 /*catalog*/
 
 /*news*/
+
+.news {
+    width: 132%;
+}
 
 .news__inner {
     position: relative;
@@ -357,7 +361,7 @@ body {
     color: #272727;
     padding: 16px;
     margin: 0 30px;
-    width: 67%;
+    width: 72%;
 }
 
 .news__inner img.news-frame {
@@ -506,7 +510,7 @@ body {
 .about__content-image {
     position: relative;
     top: 28px;
-    right: -40px;
+    right: -62px;
     
 }
 
