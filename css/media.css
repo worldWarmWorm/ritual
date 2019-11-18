@@ -78,11 +78,14 @@
 
     .footer__bottom {
         margin-top: 25px;
-        min-height: 180px;
+        min-height: 180px !important;
     }
 
     .footer::after {
-        bottom: 180px;
+        bottom: 180px !important;
+    }
+    .catalog-page {
+        margin-bottom: 62px;
     }
 
     .catalog__inner ul {
@@ -95,8 +98,6 @@
     }
 
 }
-
-
 
 @media (max-width: 767px) {
     .logo {

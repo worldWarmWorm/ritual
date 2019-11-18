@@ -1,4 +1,8 @@
 /*default styles*/
+html {
+    margin: 0;
+    height: 0;
+}
 
 * {
     box-sizing: border-box;
@@ -27,6 +31,8 @@ li {
 }
 
 body {
+    margin: 0;
+    height: 0;
     font-family: 'Tinos', serif;
     font-weight: 400;
     font-size: 14px;

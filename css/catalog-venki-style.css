@@ -84,30 +84,18 @@
 
 .catalog-page__cart {
     color: #272727;
-    min-width: 242px;
-    min-height: 335.5px;
+    min-width: 238px;
+    min-height: 305.5px;
     border: .5px solid rgba(0, 0, 0, .5);
     padding: 10px;
 }
 
-.net .col-xl-4:nth-child(2) .catalog-page__cart,
-.net .col-xl-4:nth-child(3) .catalog-page__cart {
-    margin-left: -1.5px;
-}
-
-.net .col-xl-4 .catalog-page__cart:nth-child(2),
-.net .col-xl-4 .catalog-page__cart:nth-child(3),
-.net .col-xl-4 .catalog-page__cart:nth-child(4),
-.net .col-xl-4 .catalog-page__cart:nth-child(5) {
-    margin-top: -1.5px;
+.net .col-md-10 {
+    padding: 0;
 }
 
 .net .col-xl-4 {
     padding: 0;
-}
-
-.net .col-xl-4:first-child {
-    padding-left: 15px;
 }
 
 .catalog-page__cart-image {
