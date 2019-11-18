@@ -1,0 +1,273 @@
+@media (max-width: 1199px) {
+    .logo__text {
+        display: none;
+    }
+
+    .header .menu {
+        border-top: .5px solid rgba(181, 181, 181, .5);
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .header .menu ul {
+        display: none;
+    }
+
+    .menu__gumb {
+        display: block !important;
+        line-height: 55px;
+    }
+
+    .menu__gumb::after {
+        content: '';
+        color: #fff;
+        position: absolute;
+        top: 6px;
+        right: 32px;
+        width: 30px;
+        height: 40px;
+        background: url('../images/menu-gumb.png') no-repeat 50% 50%;
+        background-size: cover;
+    }
+
+    .header::after {
+        display: none;
+    }
+
+    .slider__inner-content {
+        min-height: 350px;
+    }
+
+    .slider__inner-content h3 {
+        padding-top: 180px;
+    }
+
+    .about__content-image {
+        display: none;
+    }
+
+    .about__content-text {
+        max-width: 100%;
+    }
+
+    .logo__img {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .footer__contacts {
+        flex-direction: column;
+        /* margin-left: 31%; */
+
+    }
+
+    .footer__contacts-number,
+    .footer__contacts-email,
+    .footer__contacts-addres {
+        margin: 15px 0;
+    }
+
+    .footer__contacts-number {
+        padding-left: 0 !important;
+    }
+
+    .footer__contacts-number::after {
+        left: -39px !important;
+    }
+
+    .footer__bottom {
+        margin-top: 25px;
+        min-height: 180px;
+    }
+
+    .footer::after {
+        bottom: 180px;
+    }
+
+    .catalog__inner ul {
+        min-width: 183%;
+    }
+
+    .slider__inner-content h3 {
+
+        padding-top: 138px;
+    }
+
+}
+
+
+
+@media (max-width: 767px) {
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header .col-md-2 {
+        padding-left: 0;
+    }
+
+    .header .col-xl-4:nth-child(2) {
+        padding-right: 0;
+    }
+
+    .header .col-sm-12 {
+        padding: 0 15px !important;
+    }
+
+    .company-profile-text {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
+    .header .contacts {
+        max-width: 60%;
+        margin: 25px auto;
+    }
+
+    .footer__contacts {
+        margin-left: 31%;
+    }
+
+    .promo-kontur {
+        justify-content: space-between !important;
+        margin-top: 10px;
+    }
+
+    .promo-kontur__text div {
+        padding-left: 0 !important;
+        padding-right: 15px !important;
+
+    }
+
+    .slider__inner-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .slick-btn {
+        display: none !important;
+    }
+}
+
+@media (max-width: 650px) {
+    .about .col-sm-6 {
+        max-width: 100%;
+        margin-top: 260px;
+        padding: 0 20px;
+    }
+
+    .about {
+        margin-bottom: 50px;
+    }
+
+    .about .col-sm-3 {
+        margin-left: 22%;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    .company-profile-text {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+
+    .header .contacts {
+        max-width: 85%;
+        margin: 25px auto;
+    }
+
+    .footer__contacts {
+        margin-left: 15%;
+    }
+
+    .footer__bottom {
+        min-height: 220px !important;
+    }
+
+    .footer::after {
+        bottom: 235px !important;
+    }
+
+    .catalog__inner ul {
+        min-width: 100%;
+    }
+
+    .news {
+        width: 100%;;
+    }
+
+    .about .col-sm-3 {
+        margin-left: 19%;
+    }
+
+    .catalog__inner {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 505px) {
+    .about .col-sm-3 {
+        margin-left: 17%;
+    }
+}
+
+@media (max-width: 445px) {
+    .about .col-sm-3 {
+        margin-left: 14%;
+    }
+}
+
+@media (max-width: 430px) {
+    .about .col-sm-3 {
+        margin-left: 12%;
+    }
+}
+
+@media (max-width: 410px) {
+    .about .col-sm-3 {
+        margin-left: 9%;
+    }
+}
+
+@media (max-width: 390px) {
+    .about .col-sm-3 {
+        margin-left: 6%;
+    }
+}
+
+@media (max-width: 370px) {
+    .about .col-sm-3 {
+        margin-left: 4%;
+    }
+}
+
+@media (max-width: 350px) {
+    .about .col-sm-3 {
+        margin-left: 2%;
+    }
+}
+
+@media (max-width: 340px) {
+    .about .col-sm-3 {
+        margin-left: 0;
+        padding: 0 7px;
+    }
+
+    .search img {
+        left: 10px;
+    }
+    .search button {
+        left: 37px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header .menu ul {
+        display: flex !important;
+    }
+
+
+}

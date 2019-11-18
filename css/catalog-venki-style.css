@@ -1,0 +1,198 @@
+/*animation for paginator*/
+
+@keyframes leftPulse {
+
+    0% {
+        transform: translateX(0);
+    }
+
+
+    50% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes rightPulse {
+    0% {
+        transform: translateX(0);
+    }
+
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*animation for paginator*/
+
+/*bread's crumbs*/
+
+.breads {
+    margin-top: 65px;
+}
+
+.breads ul li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+
+}
+
+.breads ul li:not(:last-child) {
+    opacity: 0.8;
+}
+
+
+.breads ul li:not(:first-child)::before {
+    content: '';
+    position: absolute;
+    left: -16px;
+    top: 6px;
+    width: 12px;
+    height: 5px;
+    background: url('../images/bread-arrow.png');
+}
+
+.breads h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #272727;
+    padding: 32px 0;
+}
+
+.breads a {
+    color: #272727;
+    text-decoration: underline;
+}
+
+/*bread's crumbs*/
+
+/*net of goods*/
+
+.catalog-page {
+    margin-bottom: 252px;
+}
+
+.catalog-page__cart {
+    color: #272727;
+    min-width: 242px;
+    min-height: 335.5px;
+    border: .5px solid rgba(0, 0, 0, .5);
+    padding: 10px;
+}
+
+.net .col-xl-4:nth-child(2) .catalog-page__cart,
+.net .col-xl-4:nth-child(3) .catalog-page__cart {
+    margin-left: -1.5px;
+}
+
+.net .col-xl-4 .catalog-page__cart:nth-child(2),
+.net .col-xl-4 .catalog-page__cart:nth-child(3),
+.net .col-xl-4 .catalog-page__cart:nth-child(4),
+.net .col-xl-4 .catalog-page__cart:nth-child(5) {
+    margin-top: -1.5px;
+}
+
+.net .col-xl-4 {
+    padding: 0;
+}
+
+.net .col-xl-4:first-child {
+    padding-left: 15px;
+}
+
+.catalog-page__cart-image {
+    padding-top: 7px;
+}
+
+.catalog-page__cart-image img {
+    display: block;
+    margin: 0 auto;
+}
+
+.catalog-page__cart-title {
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+
+.catalog-page__cart-cost {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+/*net of goods*/
+
+/*paginator*/
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination__content {
+    min-width: 243px;
+    min-height: 36px;
+    margin-top: 35px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000;
+}
+
+.pagination__content a,
+.pagination__content span {
+    display: inline-block;
+    min-width: 20px;
+    text-decoration: none;
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+    padding: 0 10px;
+    transition: .3s;
+}
+
+.pagination__content .switch-prev {
+    text-indent: -3000px;
+    background: url('../images/paint.png') no-repeat 50% 50%;
+    min-width: 40px;
+}
+
+.pagination__content .switch-next {
+    text-indent: -3000px;
+    background: url('../images/paint2.png') no-repeat 50% 50%;
+    min-width: 40px;
+}
+
+.pagination__content a.current {
+    border: 1px solid #000;
+}
+
+.pagination__content a:hover {
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+.pagination__content a.switch-prev:hover {
+    animation: leftPulse .3s ease;
+    background-color: #fff;
+}
+
+
+.pagination__content a.switch-next:hover {
+    animation: rightPulse .3s ease;
+    background-color: #fff;
+}
+
+/*paginator*/
